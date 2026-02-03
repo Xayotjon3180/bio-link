@@ -711,6 +711,44 @@
                         </svg>
                     </a>
 
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/@hayotjontoxtaxojayev4494" target="_blank" rel="noopener"
+                        class="link-button">
+                        <div class="link-icon youtube">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                        </div>
+                        <div class="link-content">
+                            <span class="link-title">YouTube Kanalim</span>
+                            <span class="link-subtitle">Foydali videolar 🎥</span>
+                        </div>
+                        <svg class="link-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+
+                    <!-- E-Auksion -->
+                    <a href="#" class="link-button" onclick="showEAuksion(); return false;"
+                        style="border-color: var(--accent-gold);">
+                        <div class="link-icon services" style="background: linear-gradient(135deg, #ffd700, #ff8c00);">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 16c-3.12 0-5.81-1.63-7.24-4.1.27-.47.6-.89.98-1.25.96.9 2.25 1.45 3.66 1.45 2.01 0 3.79-1.11 4.74-2.77 1.05.51 2.22.8 3.46.8 2.03 0 3.89-.78 5.28-2.06.44.75.7 1.62.7 2.55 0 2.97-2.67 5.38-5.68 5.38h-5.9z" />
+                            </svg>
+                        </div>
+                        <div class="link-content">
+                            <span class="link-title" style="color: var(--accent-gold);">E-Auksion Xizmatlari</span>
+                            <span class="link-subtitle">Mulk va Avtomobillar 🏛️</span>
+                        </div>
+                        <svg class="link-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+
                     <!-- Phone -->
                     <a href="tel:+998998653180" class="link-button">
                         <div class="link-icon phone">
@@ -803,6 +841,10 @@
         // Show services alert
         function showServices() {
             alert('🚀 IT Xizmatlarimiz:\n\n✅ IT Konsalting\n✅ Web Dasturlash\n✅ Telegram Botlar\n✅ Biznes Avtomatizatsiya\n✅ Texnik Yordam\n\nBog\'lanish uchun Telegram yoki telefon orqali murojaat qiling!');
+        }
+
+        function showEAuksion() {
+            alert('🏛️ E-Auksion Xizmatlari:\n\n✅ Barcha turdagi mulklarni yutib berish\n✅ Avtomobil raqamlari va lotlar\n✅ Hujjatlashtirish va maslahat\n✅ Professional tahlil va yordam\n\nIshonchli va tezkor xizmat! ⚡');
         }
 
         // Add ripple effect to buttons
